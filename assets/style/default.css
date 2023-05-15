@@ -27,7 +27,6 @@ h1 {
     padding-top: 30px
 }
 
-
 h2 {
     font-family: 'open sans', 'sans-serif';
     font-size: 1.5em;
@@ -64,7 +63,6 @@ nav>ul>li:hover {
 
 ul {
     padding: 20px;
-    /* margin-bottom: 10px; */
     display: inline;
 }
 
@@ -73,7 +71,6 @@ li {
     display: inline;
     margin: 10px;
 }
-
 
 footer {
   background-color: #1d1d1d;
@@ -84,7 +81,6 @@ footer {
 
 /* SELECTEURS IDs */
 #logo {
-  /* float: left; */
   margin-top: 30px;
 }
 
@@ -97,7 +93,9 @@ footer {
   border: 1px black solid;
   border-radius: 15px;
   padding: 30px 20px;
-  height: 100px;
+  min-width: 140px;
+  text-align: center;
+  box-sizing:content-box;
 }
 
 #contact a {
@@ -107,8 +105,6 @@ footer {
 #projects {
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column;
-  align-items: center; */
   justify-content: space-between;
   
 }
@@ -140,7 +136,7 @@ footer {
   border: px black solid;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) /* NOTION À RETRAVAILLER */
 }
 
 .project:hover {
@@ -170,13 +166,13 @@ footer {
 }
 
 /* POLICES */
-/* Joséfine-100 Open-100 */
+/* Joséfine-100 ET Open-100 A TESTER AUSSI*/
 @font-face {
     font-family: 'theblacklist';
     src: url('../polices/theblacklist.ttf') format('truetype');
 }
 
-@font-face {
+/* @font-face {
     font-family: 'computer';
     src: url('../polices/computer.ttf') format('truetype');
 }
@@ -184,8 +180,7 @@ footer {
 @font-face {
     font-family: 'computer-condensed';
     src: url('../polices/computer-condensed.ttf') format('truetype');
-}
-
+} */
 
 /* MEDIA */
 @media all and (max-width: 998px) {
