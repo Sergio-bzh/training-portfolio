@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'roboto', 'sans-serif';
+    background-color: #f4f7f6;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: #1d1d1d;
+    color: white;
+    padding-bottom: 30px;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'theblacklist', 'Arial', sans-serif;
+    margin-top: 0;
+    padding-top: 30px
+}
+
+
+h2 {
+    font-family: 'open sans', 'sans-serif';
+    font-size: 1.5em;
+    max-width: 400px;
+    margin: auto;
+}
+
+h3::before {
+    content: '«';
+    color: gray;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+h3::after {
+    content: '»';
+    color: gray;
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 3px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 1.1em;
+    padding: 15px;
+}
+
+nav>ul>li:hover {
+    font-weight: bold;
+}
+
+ul {
+    padding: 20px;
+    /* margin-bottom: 10px; */
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+
+
+footer {
+  background-color: #1d1d1d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* SELECTEURS IDs */
+#logo {
+  /* float: left; */
+  margin-top: 30px;
+}
+
+#contact {
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+#contact>p {
+  border: 1px black solid;
+  border-radius: 15px;
+  padding: 30px 20px;
+  height: 100px;
+}
+
+#contact a {
+  font-weight: bold;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column;
+  align-items: center; */
+  justify-content: space-between;
+  
+}
+
+#production img {
+  width: 90%;
+}
+
+/* SELECTEURS CLASSES */
+.separator {
+  width: 40px;
+  height: 1px;
+  margin: 15px auto;
+  display: block;
+  background-color: #999999;
+}
+
+.container {
+  width: 80%;
+  margin: auto;    
+}
+
+.project {
+  width: 400px;
+  margin: 30px;
+  display: inline-block;
+  background-color: white;
+  padding-bottom: 15px;
+  border: px black solid;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+}
+
+.project:hover {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
+}
+
+.project img {
+  min-width: 400px;
+  height: 255px;
+}
+
+.project span {
+  display: block;
+  text-transform: uppercase;
+}
+
+.project .date-project {
+  font-size: 0.7em;
+}
+
+.picture {
+  width: 400px;
+  height: 266px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+/* POLICES */
+/* Joséfine-100 Open-100 */
+@font-face {
+    font-family: 'theblacklist';
+    src: url('../polices/theblacklist.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'computer';
+    src: url('../polices/computer.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'computer-condensed';
+    src: url('../polices/computer-condensed.ttf') format('truetype');
+}
+
+
+/* MEDIA */
+@media all and (max-width: 998px) {
+
+}

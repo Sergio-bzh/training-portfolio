@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/default.css" type="text/css">
+    <title>Premier projet</title>
+</head>
+<body>
+    <header> <!-- NOM ET FONCTION -->
+        <h1>John Doe</h1>
+        <span class="separator"></span>
+        <!-- METIER OU FONCTION -->
+        <h2>Mon premier projet</h2>
+        <!-- LOGO -->
+        <figure>
+            <img src="../icones/logo.png" alt="logo">
+            <figcaption>logo</figcaption>
+        </figure>
+    </header>
+    <nav> <!-- NAVIGATION -->
+        <ul>
+        <li><a href="../../index.html" title="Retour à l'accueil" target="_self" title="accueil">Accueil</a></li>
+        <li><a href="#production" title="production">Production</a></li>
+        <li><a href="#contact" title="contact">Contact</a></li>
+        </ul>
+    </nav>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ab quis dulla dolore ab tempora cum 
+        vero perspiciatis delectus saepe? Nesciunt consequuntur odit fugit cupiditate libero quam cum sequi voluptates ea?
+    </p>
+    <main class="container">
+        <section>
+            <h3>Introduction</h3> <!-- CONTENU -->
+            <p>Ceci est mon premier projet</p>
+            <article>
+            </article>
+        </section >
+        <!-- PRDOUCTION -->
+        <section id="production">
+            <h3>Production</h3>
+
+            <img src="../pictures/presentation.png" alt="mon premier projet">
+            <video muted controls autoplay loop width="90%">
+                <source src="../videos/video.mp4" type="video/mp4">
+                <p>Votre navigateur ne prend pas en charge cette vidéo.<br>Vous pouvez la télécharter <a href="../videos/video.mp4">ici</a></p>
+            </video>
+            <audio controls preload="metadata">
+                <source src="../audio/bensound.mp3"> 
+                <span>Votre navigateur ne prend pas en charge cette piste audio.<br>Vous pouvez <a href="../audio/bensound.mp3">la télécharger ici</a></span>
+            </audio>
+        </section>
+        <!-- CONTACT -->
+        <section>
+            <!-- DESCRIPTION -->
+            <h3>Contact</h3>
+            <div id="contact">
+                <p>Si vous souhaitez me contacter, n'hésitez pas à m'envoyer un email à <a href="mailto:john.doe@test.com">john.doe@test.com.</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>2023 &copy; John Doe</span>
+    </footer>
+</body>
+</html>

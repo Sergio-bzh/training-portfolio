@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableaux</title>
+    <style type="text/css">
+      table, th, td {
+        border-collapse: collapse;
+        border: 1px black solid;
+        padding: 2px;
+        text-align: left;
+      }
+      table {
+        margin-bottom: 20px;
+      }
+      .simple-table {
+        caption-side: bottom;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Les tableaux</h1>
+  </header>
+  <main>
+    <h2>Tableau simple ci-dessous</h2>
+    <table class="simple-table">
+      <caption>Tableau simple</caption>
+      <tr>
+        <th>Nom</th>
+        <th>Prénom</th>
+        <th>Ville</th>
+      </tr>
+      <tr>
+        <td>Pierre</td>
+        <td>Giroux</td>
+        <td>Dijon</td>
+      </tr>
+      <tr>
+        <td>Sergio</td>
+        <td>Nunez</td>
+        <td>Chartres</td>
+      </tr>
+    </table>
+    <h2>Tablelaux complèxes ci-dessous</h2>
+    <table>
+      <caption>Titres horizontaux</caption>
+      <thead>
+        <tr>
+          <th>Prénom</th>
+          <th>Profession</th>
+          <th>Célibataire</th>
+          <th>En couple</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pierre</td>
+          <td>Jardinier</td>
+          <td>Oui</td>
+          <td>Non</td>
+        </tr>
+        <tr>
+          <td>Sergio</td>
+          <td>Reveur</td>
+          <td>Non</td>
+          <td>Oui</td>
+        </tr>
+        <tr>
+          <td>Yvez</td>
+          <td>Politicien</td>
+          <td colspan="2">On ne sait pas</td>
+        </tr>
+        <tfooter>
+          <th>Prénom</th>
+          <th>Profession</th>
+          <th>Celibataire</th>
+          <th>En couple</th>
+        </tfooter>
+      </tbody>
+    </table>
+    <table>
+      <caption>Titres (ou entêtes) verticaux</caption>
+      <tr>
+        <th>Prénom</th>
+        <td>Pierre</td>
+        <td>Sergio</td>
+        <td>Yves</td>
+      </tr>
+      <tr>
+        <th>Profession</th>
+        <td>Jardinier</td>
+        <td>Reveur</td>
+        <td>Politicien</td>
+      </tr>
+      <tr>
+        <th>Celibataire</th>
+        <td>Oui</td>
+        <td>Non</td>
+        <td rowspan="2">On ne sais pas</td>
+      </tr>
+      <tr>
+        <th>En couple</th>
+        <td>Non</td>
+        <td>Oui</td>
+      </tr>
+    </table>
+  </main>
+  <footer></footer>
+</body>
+</html>
